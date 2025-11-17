@@ -1,16 +1,17 @@
 {
-  "name": "task-management",
+  "name": "task-management-_lab_02",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "type": "commonjs",
   "dependencies": {
-    "express": "^4.21.2"
-  },
-  "type": "commonjs"
+    "express": "^5.1.0"
+  }
 }
